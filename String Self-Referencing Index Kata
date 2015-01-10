@@ -7,7 +7,9 @@ the index array values should default to 0
 the first value of the index array should always be -1
 the second value of the index array should always be 0
 
-when an input character is one position to the right of a character that is the same as the input character at that character’s corresponding index value then its corresponding index value should be 1 + the index value of the character to its left
+when an input character is one position to the right of a character that is the same as the input character at 
+that character’s corresponding index value then its corresponding index value should be 1 + the index value of 
+the character to its left
 example:
 input = "aab"
 output = [-1,0,1]
